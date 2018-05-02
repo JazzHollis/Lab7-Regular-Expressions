@@ -11,10 +11,10 @@ namespace Lab7_RegularExpressions
     {
         static void Main(string[] args)
         {
-
+            //Prompts user to input requested information
             Console.WriteLine("Please enter a valid Name:");
             string nameInput = Console.ReadLine();
-            ValidateNames(nameInput);
+            ValidateNames(nameInput);//Calls method and parameters
 
             Console.WriteLine("Please enter a valid email: ");
             string emailInput = Console.ReadLine();
@@ -31,10 +31,9 @@ namespace Lab7_RegularExpressions
         }
 
         public static void ValidateNames(string nameInput)
-
         {
-
-            if (Regex.IsMatch(nameInput, @"^[A-Z][a-zA-Z\\s]+$" ))
+            //Validates that the correct format of name is entered with first letter being capitalized and up to 30 characters
+            if (Regex.IsMatch(nameInput, @"^[A-Z][a-zA-Z]{2,30}+$"))
             {
                 Console.WriteLine("Your name has been received!");
             }
@@ -42,17 +41,16 @@ namespace Lab7_RegularExpressions
             else
             {
                 Console.WriteLine("Name is not valid! Please try again!");
-            }        
+            }
 
 
         }
-
+        
         public static void ValidateEmail(string emailInput)
-
         {
 
-
-            if (Regex.IsMatch(emailInput, @"^[A-Za-z0-9._%+-]{5,30}@[a-zA-Z0-9.-]{2,15}\.[a-zA-Z]{2,}$"))
+            //Validates that the correct format of email is entered
+            if (Regex.IsMatch(emailInput, @"^[A-Za-z0-9._%+-]{5,30}@[a-zA-Z0-9.-]{5,10}\.[a-zA-Z]{2,}$"))
             {
                 Console.WriteLine("Email received!");
             }
@@ -68,12 +66,12 @@ namespace Lab7_RegularExpressions
         {
 
 
-            {
+            {   //Validates that the correct format of phone number is entered
                 if (Regex.IsMatch(phoneInput, @"^\d{3}-\d{3}-\d{4}$"))
 
                 {
                     Console.WriteLine("Phone number received!");
-                    
+
 
                 }
 
@@ -88,7 +86,7 @@ namespace Lab7_RegularExpressions
         {
 
 
-            {
+            {   //Validates that the correct date format is entered 
                 if (Regex.IsMatch(dateInput, @"^\d{2}/\d{2}/\d{4}$"))
                 {
                     Console.WriteLine("Date received! ");
@@ -101,10 +99,19 @@ namespace Lab7_RegularExpressions
                 }
 
             }
+                
 
         }
+
+
+
+
+
+        
     }
+
 }
+
 
 
 
