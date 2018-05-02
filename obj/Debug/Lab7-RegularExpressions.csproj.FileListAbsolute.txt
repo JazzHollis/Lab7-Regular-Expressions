@@ -1,0 +1,7 @@
+c:\users\rjkgi\source\repos\Lab7-RegularExpressions\Lab7-RegularExpressions\obj\Debug\Lab7-RegularExpressions.csprojResolveAssemblyReference.cache
+c:\users\rjkgi\source\repos\Lab7-RegularExpressions\Lab7-RegularExpressions\obj\Debug\Lab7-RegularExpressions.csproj.CoreCompileInputs.cache
+c:\users\rjkgi\source\repos\Lab7-RegularExpressions\Lab7-RegularExpressions\bin\Debug\Lab7-RegularExpressions.exe.config
+c:\users\rjkgi\source\repos\Lab7-RegularExpressions\Lab7-RegularExpressions\bin\Debug\Lab7-RegularExpressions.exe
+c:\users\rjkgi\source\repos\Lab7-RegularExpressions\Lab7-RegularExpressions\bin\Debug\Lab7-RegularExpressions.pdb
+c:\users\rjkgi\source\repos\Lab7-RegularExpressions\Lab7-RegularExpressions\obj\Debug\Lab7-RegularExpressions.exe
+c:\users\rjkgi\source\repos\Lab7-RegularExpressions\Lab7-RegularExpressions\obj\Debug\Lab7-RegularExpressions.pdb
